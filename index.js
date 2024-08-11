@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/books", (req, res) => {
-  const q = "SELECT * FROM test.books";
+  const q = "SELECT * FROM byiwgscmciwoion9sbiv.books";
   db.query(q, (err, data) => {
     if (err) return res.json(err);
     return res.json(data);
