@@ -1,7 +1,9 @@
 import express from "express";
 import mysql from "mysql2";
 import cors from "cors";
-require("dotenv").config();
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
